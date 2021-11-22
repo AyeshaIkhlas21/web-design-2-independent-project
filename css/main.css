@@ -23,7 +23,23 @@ nav li {
   list-style-type: none;
 }
 
+.header-logo {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
 main {
   background-color: rgb(30, 31, 37);
   color: rgb(228, 223, 217);
+  padding: 5rem;
+  margin: -1rem;
+}
+
+main h2,
+main p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
 }
