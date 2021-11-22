@@ -9,6 +9,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 1rem;
+}
+
 h1 {
   color: rgb(1, 65, 94);
+  font-size: 60px;
+}
+
+nav li {
+  text-decoration: none;
+  list-style-type: none;
 }
