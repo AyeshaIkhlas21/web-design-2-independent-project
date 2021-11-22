@@ -10,7 +10,12 @@ html {
 }
 
 body {
-  margin: 1rem;
+  margin: 0;
+}
+
+.skip-link {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 h1 {
@@ -33,7 +38,6 @@ main {
   background-color: rgb(30, 31, 37);
   color: rgb(228, 223, 217);
   padding: 5rem;
-  margin: -1rem;
 }
 
 main h2,
@@ -41,4 +45,12 @@ main p {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+p {
+  display: block;
+}
+
+h1, h2, p, ul {
+  margin: 0 0 1.3rem;
 }
