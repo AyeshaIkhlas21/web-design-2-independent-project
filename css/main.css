@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  background-color: rgb(228, 223, 217);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+nav li {
+  color: rgb(1, 65, 94);
+}
