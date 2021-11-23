@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 
-.skip-link {
+ul {
   text-decoration: none;
   list-style-type: none;
 }
