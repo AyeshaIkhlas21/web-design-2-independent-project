@@ -20,9 +20,26 @@ ul {
   list-style-type: none;
 }
 
+header {
+  margin: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* display: grid;
+  grid-template-columns: auto 20em auto;
+  grid-template-rows: auto 1.5rem;
+  align-items: center;
+  justify-content: space-between;  */
+}
+
+header nav {
+  margin: 0;
+}
+
 h1 {
   color: rgb(1, 65, 94);
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: normal;
   font-family: mongoose, sans-serif;
 }
@@ -37,7 +54,7 @@ nav li {
   list-style-type: none;
 }
 
-.header-logo {
+.logo {
   display: block;
   position: relative;
   width: 100%;
@@ -47,6 +64,8 @@ main {
   background-color: rgb(30, 31, 37);
   color: rgb(228, 223, 217);
   padding: 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 main h2,
@@ -70,7 +89,6 @@ p {
 
 h1, h2, p, ul {
   margin: 0 0 1.3rem;
-  font-weight: thin;
 }
 
 section h2 {
