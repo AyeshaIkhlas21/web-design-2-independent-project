@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   background-color: rgb(228, 223, 217);
+  font-family: mongoose, sans-serif;
+  font-family: acumin-pro, sans-serif;
 }
 
 *,
@@ -20,7 +22,14 @@ ul {
 
 h1 {
   color: rgb(1, 65, 94);
-  font-size: 3.75rem;
+  font-size: 5rem;
+  font-weight: normal;
+  font-family: mongoose, sans-serif;
+}
+
+h2 {
+  font-family: mongoose, sans-serif;
+  font-weight: bold;
 }
 
 nav li {
@@ -45,12 +54,41 @@ main p {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-weight: normal;
+}
+
+main h2 {
+  font-size: 2.5rem;
 }
 
 p {
   display: block;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 h1, h2, p, ul {
   margin: 0 0 1.3rem;
+  font-weight: thin;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+.case-study {
+  font-family: mongoose, sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+section {
+  margin: 1rem;
+}
+
+.project {
+  font-family: mongoose, sans-serif;
+  margin: 2rem;
+  font-weight: normal;
 }
