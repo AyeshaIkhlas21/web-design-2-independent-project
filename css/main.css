@@ -99,7 +99,8 @@ section h2 {
 }
 
 section {
-  margin: 1rem;
+  margin: 0 1rem 1.5rem;
+  max-width: 30em;
 }
 
 .project {
