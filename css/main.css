@@ -126,6 +126,10 @@ section {
   max-width: 30em;
 }
 
+section img {
+/* centerimage */
+}
+
 .project {
   font-family: mongoose, sans-serif;
   margin: 2rem;
