@@ -16,6 +16,16 @@ body {
   margin: 0;
 }
 
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links > li::before {
+  content: none;
+}
+
 ul {
   text-decoration: none;
   list-style-type: none;
@@ -62,6 +72,8 @@ main {
   padding: 5rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 main h2,
@@ -96,6 +108,7 @@ section h2 {
   font-size: 1.5rem;
   font-weight: normal;
   border-bottom: none;
+  margin-top: 3.5rem;
 }
 
 section {
@@ -107,8 +120,13 @@ section {
   font-family: mongoose, sans-serif;
   margin: 2rem;
   font-weight: normal;
+  margin-bottom: 2rem;
 }
 
 section h2 {
   border-bottom: 4px solid;
+}
+
+footer {
+  border-top: 5px solid rgb(1, 65, 94);
 }
