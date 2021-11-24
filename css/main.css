@@ -22,6 +22,16 @@ body {
   list-style-type: none;
 }
 
+.skip-links a {
+  padding: 0.5em 0.75em;
+  position: absolute;
+  top: -10em;
+  z-index: 100000;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
 .skip-links > li::before {
   content: none;
 }
@@ -32,7 +42,7 @@ ul {
 }
 
 header {
-  margin: 0;
+  margin: 1.5rem 1.5rem 0;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -129,4 +139,8 @@ section h2 {
 
 footer {
   border-top: 5px solid rgb(1, 65, 94);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
