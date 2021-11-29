@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  background-color: rgb(228, 223, 217);
+  font-family: mongoose, sans-serif;
+  font-family: acumin-pro, sans-serif;
+  line-height: 1.3;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  padding: 0.5em 0.75em;
+  position: absolute;
+  top: -10em;
+  z-index: 100000;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-links > li::before {
+  content: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  margin: 1.5rem 1.5rem 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header nav {
+  margin: 0;
+}
+
+h1 {
+  color: rgb(1, 65, 94);
+  font-size: 3rem;
+  font-weight: normal;
+  font-family: mongoose, sans-serif;
+}
