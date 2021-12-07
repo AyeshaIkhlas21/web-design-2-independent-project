@@ -97,6 +97,15 @@ nav ul {
   width: 100%;
 }
 
+header img {
+  width: 28%;
+  margin-top: 0;
+  padding: 3rem;
+  margin-left: 1rem;
+  display: block;
+  position: relative;
+}
+
 main {
   background-color: rgb(30, 31, 37);
   color: rgb(228, 223, 217);
@@ -267,7 +276,7 @@ section a {
     }
 
     header img {
-      width: 330px;
+      /* width: 25%; */
       margin-top: -10rem;
       padding: 3rem;
       margin-left: 1rem;
@@ -364,7 +373,7 @@ section a {
     }
 
     header img {
-      width: 330px;
+      width: 395px;
       margin-top: -10rem;
       padding: 3rem;
       margin-left: 1rem;
