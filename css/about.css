@@ -237,8 +237,18 @@ section p {
     text-decoration: underline;
   }
 
-  h1:hover {
+  h1 a {
+    color: rgb(1, 65, 94);
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: mongoose, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  h1 a:hover {
     color: rgb(92, 91, 90);
+    text-decoration: none;
   }
 
   header img {
