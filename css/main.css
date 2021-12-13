@@ -58,14 +58,16 @@ nav a:hover {
   text-decoration: underline;
 }
 
-h1 {
+h1 a{
   color: rgb(1, 65, 94);
   font-size: 3rem;
   font-weight: normal;
   font-family: mongoose, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
 }
 
-h1:hover {
+h1 a:hover {
   color: rgb(92, 91, 90);
   text-decoration: none;
 }
@@ -180,7 +182,6 @@ section p {
   font-weight: normal;
   margin-bottom: -2rem;
   padding: .5em 1em;
-  padding-bottom: 2rem;
   background-color: rgb(119, 189, 158);
   border-radius: .3em;
   text-decoration: none;
@@ -295,8 +296,18 @@ section a {
     text-decoration: underline;
   }
 
-  h1:hover {
+  h1 a{
+    color: rgb(1, 65, 94);
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: mongoose, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  h1 a:hover {
     color: rgb(92, 91, 90);
+    text-decoration: none;
   }
 
   header nav {
@@ -339,7 +350,6 @@ section a {
     font-weight: normal;
     margin-bottom: -2rem;
     padding: .5em 1em;
-    padding-bottom: 2rem;
     background-color: rgb(119, 189, 158);
     border-radius: .3em;
     text-decoration: none;
@@ -423,8 +433,18 @@ section a {
     text-decoration: underline;
   }
 
-  h1:hover {
+  h1 a{
+    color: rgb(1, 65, 94);
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: mongoose, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  h1 a:hover {
     color: rgb(92, 91, 90);
+    text-decoration: none;
   }
 
   header nav {
@@ -465,7 +485,6 @@ section a {
     font-weight: normal;
     margin-bottom: -2rem;
     padding: .5em 1em;
-    padding-bottom: 2rem;
     background-color: rgb(119, 189, 158);
     border-radius: .3em;
     text-decoration: none;
