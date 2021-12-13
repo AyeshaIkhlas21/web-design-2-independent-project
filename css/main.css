@@ -58,6 +58,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  z-index: 1;
+}
+
 h1 a {
   color: rgb(1, 65, 94);
   font-size: 3rem;
@@ -69,7 +73,7 @@ h1 a {
 
 h1 a:hover {
   color: rgb(92, 91, 90);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h2 {
@@ -110,8 +114,6 @@ nav ul {
 }
 
 header img {
-  width: 28%;
-  margin-top: 0;
   margin-bottom: -3rem;
   padding: 3rem;
   margin-left: 0;
@@ -228,7 +230,6 @@ section a {
 }
 
 @media only screen and (min-width: 38em) {
-
   header {
     display: grid;
     grid-template-columns: 3fr;
@@ -307,7 +308,7 @@ section a {
 
   h1 a:hover {
     color: rgb(92, 91, 90);
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   header nav {
@@ -317,6 +318,7 @@ section a {
   }
 
   header img {
+    width: 300px;
     margin-top: -15rem;
     padding: 3rem;
     margin-left: 1rem;
@@ -379,7 +381,7 @@ section a {
     display: flex;
     justify-content: flex-end;
     margin: 0;
-    z-index: 0;
+    z-index: 1;
     grid-column: 1 / -1;
     grid-row: 1;
   }
@@ -402,15 +404,6 @@ section a {
     font-size: 1.125rem;
     text-decoration: none;
     font-weight: bold;
-  }
-
-  nav ul {
-    list-style-type: none;
-    text-decoration: none;
-
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
   }
 
   h1 {
@@ -449,7 +442,7 @@ section a {
   }
 
   header img {
-    width: 395px;
+    width: 300px;
     margin-top: -15rem;
     padding: 3rem;
     margin-left: 1rem;
