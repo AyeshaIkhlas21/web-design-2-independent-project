@@ -177,7 +177,7 @@ section h2 {
 }
 
 section img {
-  width: 50%;
+  width: 80%;
   display: block;
   margin: 2rem;
 }
@@ -215,7 +215,7 @@ section {
 .hover-box img {
   filter: grayscale(100%);
   display: block;
-  width: 50%;
+  width: 80%;
   transition: all .2s linear;
 }
 
@@ -223,12 +223,6 @@ section {
 .hover-box:focus img {
   filter: grayscale(0);
   transform: scale(1.1);
-}
-
-.hover-box-caption {
-  background-image: linear-gradient(to bottom, rgb(1, 65, 94), rgb(0, 0, 0, .5));
-  text-shadow: 1px 1px 5px rgb(1, 65, 94);
-  transition: all .2s linear;
 }
 
 section h2,
@@ -269,7 +263,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     margin: 0;
-    z-index: 1;
+    z-index: 0;
     grid-column: 1 / -1;
     grid-row: 1;
   }
