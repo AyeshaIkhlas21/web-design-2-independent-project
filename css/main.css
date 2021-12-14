@@ -173,6 +173,13 @@ section {
   max-width: 30em;
 }
 
+section img {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 section h2,
 section p {
   padding-bottom: 1rem;
@@ -230,6 +237,7 @@ section a {
 }
 
 @media only screen and (min-width: 38em) {
+
   header {
     display: grid;
     grid-template-columns: 3fr;
@@ -364,6 +372,14 @@ section a {
     text-decoration: none;
   }
 
+  section img {
+    width: 500px;
+    display: flex;
+    margin: 0;
+    margin-left: 5rem;
+    flex-direction: column;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -483,6 +499,14 @@ section a {
     color: rgb(228, 223, 217);
     list-style-type: none;
     text-decoration: none;
+  }
+
+  section img {
+    width: 600px;
+    display: flex;
+    margin: 5rem;
+    margin-left: 35rem;
+    flex-direction: column;
   }
 
 }
