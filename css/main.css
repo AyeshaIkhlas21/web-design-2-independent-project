@@ -239,21 +239,20 @@ section a {
 @media only screen and (min-width: 38em) {
 
   header {
-    display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: auto 1.5rem;
-    margin-top: 5rem;
-    align-items: center;
+    display: flex;
+    margin-top: -1rem;
     justify-content: space-between;
+    flex-direction: row;
   }
 
-  nav {
+  header nav {
     display: flex;
-    justify-content: flex-end;
-    margin: 0;
     z-index: 0;
     grid-column: 1 / -1;
     grid-row: 1;
+    margin: 1rem;
+    justify-content: flex-end;
+    margin-top: 3rem;
   }
 
   header ul li a {
@@ -287,7 +286,7 @@ section a {
 
   h1 {
     margin-left: -2.5rem;
-    padding: 1rem;
+    width: 50%;
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -319,15 +318,9 @@ section a {
     text-decoration: underline;
   }
 
-  header nav {
-    margin: 1rem;
-    justify-content: flex-end;
-    margin-top: 3rem;
-  }
-
   header img {
     width: 300px;
-    margin-top: -15rem;
+    margin-top: 0;
     padding: 3rem;
     margin-left: 1rem;
     display: block;
@@ -385,12 +378,10 @@ section a {
 @media only screen and (min-width: 90em) {
 
   header {
-    display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: auto 1.5rem;
-    margin-top: 5rem;
-    align-items: center;
+    display: flex;
+    margin-top: 0;
     justify-content: space-between;
+    flex-direction: row;
   }
 
   nav {
@@ -459,7 +450,7 @@ section a {
 
   header img {
     width: 300px;
-    margin-top: -15rem;
+    margin-top: 0;
     padding: 3rem;
     margin-left: 1rem;
     display: block;
@@ -481,6 +472,7 @@ section a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 5rem;
   }
 
   .project {

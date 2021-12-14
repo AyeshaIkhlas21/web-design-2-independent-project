@@ -171,12 +171,10 @@ section p {
 @media only screen and (min-width: 38em) {
 
   header {
-    display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: auto 1.5rem;
-    margin-top: 5rem;
-    align-items: center;
+    display: flex;
+    margin-top: -1rem;
     justify-content: space-between;
+    flex-direction: row;
   }
 
   nav {
@@ -259,8 +257,7 @@ section p {
 
   header img {
     width: 300px;
-    margin-right: 6rem;
-    margin-top: -15rem;
+    margin-top: 0;
     padding: 3rem;
     margin-left: 1rem;
     display: block;
@@ -313,12 +310,10 @@ section p {
 @media only screen and (min-width: 90em) {
 
   header {
-    display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: auto 1.5rem;
-    margin-top: 5rem;
-    align-items: center;
+    display: flex;
+    margin-top: 0;
     justify-content: space-between;
+    flex-direction: row;
   }
 
   nav {
@@ -391,7 +386,7 @@ section p {
 
   header img {
     width: 300px;
-    margin-top: -15rem;
+    margin-top: 0;
     padding: 3rem;
     margin-left: 1rem;
     display: block;

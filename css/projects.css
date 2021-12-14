@@ -139,6 +139,10 @@ main {
   align-items: center;
 }
 
+main a {
+  padding: .5em 1em .6em;
+}
+
 main h2,
 main p {
   display: flex;
@@ -248,15 +252,25 @@ footer {
   align-items: center;
 }
 
+.invitation-cards img {
+  width: 75%;
+}
+
+.event-card img {
+  width: 90%;
+}
+
+.ramdon-cards img{
+  width: 50%;
+}
+
 @media only screen and (min-width: 38em) {
 
   header {
-    display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: auto 1.5rem;
-    margin-top: 5rem;
-    align-items: center;
+    display: flex;
+    margin-top: -1rem;
     justify-content: space-between;
+    flex-direction: row;
   }
 
   nav {
@@ -299,7 +313,7 @@ footer {
 
   h1 {
     margin-left: -2.5rem;
-    padding: 1rem;
+    padding: -5rem;
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -339,7 +353,7 @@ footer {
 
   header img {
     width: 300px;
-    margin-top: -15rem;
+    margin-top: 0;
     padding: 3rem;
     margin-left: 1rem;
     display: block;
@@ -380,12 +394,10 @@ footer {
 @media only screen and (min-width: 90em) {
 
   header {
-    display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: auto 1.5rem;
-    margin-top: 5rem;
-    align-items: center;
+    display: flex;
+    margin-top: -1rem;
     justify-content: space-between;
+    flex-direction: row;
   }
 
   nav {
@@ -468,7 +480,7 @@ footer {
 
   header img {
     width: 300px;
-    margin-top: -15rem;
+    margin-top: 0;
     padding: 3rem;
     margin-left: 1rem;
     display: block;
@@ -489,7 +501,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    padding: 5rem;
   }
 
   main nav li {
