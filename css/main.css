@@ -23,13 +23,12 @@ body {
 }
 
 .skip-links a {
-  padding: .5em .75em;
   position: absolute;
-  top: -10em;
-  z-index: 100000;
-  border: 0;
-  color: #fff;
-  text-decoration: none;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
 }
 
 .skip-links > li::before {
