@@ -99,10 +99,9 @@ h1 {
   font-family: mongoose, sans-serif;
 }
 
-main {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+main img {
+  width: 200px;
+  margin-bottom: 2rem;
 }
 
 main h2 {
@@ -148,12 +147,6 @@ footer {
   align-items: center;
 }
 
-main img {
-  width: 300px;
-  margin-bottom: 2rem;
-  align-items: center;
-}
-
 h3 {
   font-style: normal;
   font-size: 1.5rem;
@@ -169,6 +162,11 @@ section p {
   font-size: 1.3rem;
 }
 
+.about-image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -282,7 +280,6 @@ section p {
   }
 
   main img {
-    margin-right: 10rem;
     width: 300px;
     margin-bottom: 2rem;
     display: flex;
@@ -303,6 +300,12 @@ section p {
   }
   section p {
     font-size: 1.3rem;
+  }
+
+  .about-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
 }
@@ -407,14 +410,6 @@ section p {
     font-size: 3rem;
   }
 
-  main img {
-    width: 500px;
-    margin-right: -2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
   h3 {
     font-style: normal;
     font-size: 1.5rem;
@@ -428,4 +423,10 @@ section p {
   }
   section p {
     font-size: 1.3rem;
+  }
+
+  .about-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
